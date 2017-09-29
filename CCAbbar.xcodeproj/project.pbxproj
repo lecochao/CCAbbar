@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA88DB961F7E3AE10098C51F /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB791F7E3AE00098C51F /* UIScrollView+EmptyDataSet.m */; };
+		DA88DB971F7E3AE10098C51F /* UIView+CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB7B1F7E3AE00098C51F /* UIView+CCView.m */; };
+		DA88DB981F7E3AE10098C51F /* XCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB7D1F7E3AE00098C51F /* XCTableView.m */; };
+		DA88DB991F7E3AE10098C51F /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB811F7E3AE10098C51F /* NSDate+Category.m */; };
+		DA88DB9A1F7E3AE10098C51F /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB831F7E3AE10098C51F /* NSDateFormatter+Category.m */; };
+		DA88DB9B1F7E3AE10098C51F /* NSFileManager+CCFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB851F7E3AE10098C51F /* NSFileManager+CCFilePath.m */; };
+		DA88DB9C1F7E3AE10098C51F /* NSObject+CCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB871F7E3AE10098C51F /* NSObject+CCObject.m */; };
+		DA88DB9D1F7E3AE10098C51F /* NSObject+CCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB891F7E3AE10098C51F /* NSObject+CCRuntime.m */; };
+		DA88DB9E1F7E3AE10098C51F /* NSObject+toString.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB8B1F7E3AE10098C51F /* NSObject+toString.m */; };
+		DA88DB9F1F7E3AE10098C51F /* NSString+CCString.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB8D1F7E3AE10098C51F /* NSString+CCString.m */; };
+		DA88DBA01F7E3AE10098C51F /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB8F1F7E3AE10098C51F /* NSString+Emoji.m */; };
+		DA88DBA11F7E3AE10098C51F /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB911F7E3AE10098C51F /* NSString+Hashes.m */; };
+		DA88DBA21F7E3AE10098C51F /* NSTimer+CCTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DB931F7E3AE10098C51F /* NSTimer+CCTimer.m */; };
+		DA88DBA61F7E3C5E0098C51F /* CCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88DBA51F7E3C5E0098C51F /* CCPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA88DB301F7E24C80098C51F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA88DB321F7E24C80098C51F /* libCCAbbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCAbbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA88DB3E1F7E25E60098C51F /* CCDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDefine.h; sourceTree = "<group>"; };
+		DA88DB781F7E3AE00098C51F /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		DA88DB791F7E3AE00098C51F /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		DA88DB7A1F7E3AE00098C51F /* UIView+CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCView.h"; sourceTree = "<group>"; };
+		DA88DB7B1F7E3AE00098C51F /* UIView+CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCView.m"; sourceTree = "<group>"; };
+		DA88DB7C1F7E3AE00098C51F /* XCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTableView.h; sourceTree = "<group>"; };
+		DA88DB7D1F7E3AE00098C51F /* XCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTableView.m; sourceTree = "<group>"; };
+		DA88DB801F7E3AE10098C51F /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		DA88DB811F7E3AE10098C51F /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		DA88DB821F7E3AE10098C51F /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		DA88DB831F7E3AE10098C51F /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		DA88DB841F7E3AE10098C51F /* NSFileManager+CCFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+CCFilePath.h"; sourceTree = "<group>"; };
+		DA88DB851F7E3AE10098C51F /* NSFileManager+CCFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CCFilePath.m"; sourceTree = "<group>"; };
+		DA88DB861F7E3AE10098C51F /* NSObject+CCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCObject.h"; sourceTree = "<group>"; };
+		DA88DB871F7E3AE10098C51F /* NSObject+CCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCObject.m"; sourceTree = "<group>"; };
+		DA88DB881F7E3AE10098C51F /* NSObject+CCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CCRuntime.h"; sourceTree = "<group>"; };
+		DA88DB891F7E3AE10098C51F /* NSObject+CCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CCRuntime.m"; sourceTree = "<group>"; };
+		DA88DB8A1F7E3AE10098C51F /* NSObject+toString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+toString.h"; sourceTree = "<group>"; };
+		DA88DB8B1F7E3AE10098C51F /* NSObject+toString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+toString.m"; sourceTree = "<group>"; };
+		DA88DB8C1F7E3AE10098C51F /* NSString+CCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CCString.h"; sourceTree = "<group>"; };
+		DA88DB8D1F7E3AE10098C51F /* NSString+CCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CCString.m"; sourceTree = "<group>"; };
+		DA88DB8E1F7E3AE10098C51F /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		DA88DB8F1F7E3AE10098C51F /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		DA88DB901F7E3AE10098C51F /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
+		DA88DB911F7E3AE10098C51F /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
+		DA88DB921F7E3AE10098C51F /* NSTimer+CCTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+CCTimer.h"; sourceTree = "<group>"; };
+		DA88DB931F7E3AE10098C51F /* NSTimer+CCTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+CCTimer.m"; sourceTree = "<group>"; };
+		DA88DB941F7E3AE10098C51F /* localizedString.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = localizedString.bundle; sourceTree = "<group>"; };
+		DA88DBA31F7E3B110098C51F /* CCAbbarKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAbbarKit.h; sourceTree = "<group>"; };
+		DA88DBA41F7E3C5E0098C51F /* CCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPickerView.h; sourceTree = "<group>"; };
+		DA88DBA51F7E3C5E0098C51F /* CCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPickerView.m; sourceTree = "<group>"; };
+		DA88DBA71F7E3CB60098C51F /* CCAbbarCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAbbarCategory.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA88DB2F1F7E24C80098C51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA88DB291F7E24C80098C51F = {
+			isa = PBXGroup;
+			children = (
+				DA88DB341F7E24C80098C51F /* CCAbbar */,
+				DA88DB331F7E24C80098C51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA88DB331F7E24C80098C51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DB321F7E24C80098C51F /* libCCAbbar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA88DB341F7E24C80098C51F /* CCAbbar */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DB3E1F7E25E60098C51F /* CCDefine.h */,
+				DA88DB7E1F7E3AE10098C51F /* Category */,
+				DA88DB741F7E3AE00098C51F /* CCKit */,
+			);
+			path = CCAbbar;
+			sourceTree = "<group>";
+		};
+		DA88DB741F7E3AE00098C51F /* CCKit */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DBA31F7E3B110098C51F /* CCAbbarKit.h */,
+				DA88DB751F7E3AE00098C51F /* Classes */,
+			);
+			path = CCKit;
+			sourceTree = "<group>";
+		};
+		DA88DB751F7E3AE00098C51F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DBA41F7E3C5E0098C51F /* CCPickerView.h */,
+				DA88DBA51F7E3C5E0098C51F /* CCPickerView.m */,
+				DA88DB781F7E3AE00098C51F /* UIScrollView+EmptyDataSet.h */,
+				DA88DB791F7E3AE00098C51F /* UIScrollView+EmptyDataSet.m */,
+				DA88DB7A1F7E3AE00098C51F /* UIView+CCView.h */,
+				DA88DB7B1F7E3AE00098C51F /* UIView+CCView.m */,
+				DA88DB7C1F7E3AE00098C51F /* XCTableView.h */,
+				DA88DB7D1F7E3AE00098C51F /* XCTableView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DA88DB7E1F7E3AE10098C51F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DBA71F7E3CB60098C51F /* CCAbbarCategory.h */,
+				DA88DB7F1F7E3AE10098C51F /* Classes */,
+				DA88DB941F7E3AE10098C51F /* localizedString.bundle */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DA88DB7F1F7E3AE10098C51F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA88DB801F7E3AE10098C51F /* NSDate+Category.h */,
+				DA88DB811F7E3AE10098C51F /* NSDate+Category.m */,
+				DA88DB821F7E3AE10098C51F /* NSDateFormatter+Category.h */,
+				DA88DB831F7E3AE10098C51F /* NSDateFormatter+Category.m */,
+				DA88DB841F7E3AE10098C51F /* NSFileManager+CCFilePath.h */,
+				DA88DB851F7E3AE10098C51F /* NSFileManager+CCFilePath.m */,
+				DA88DB861F7E3AE10098C51F /* NSObject+CCObject.h */,
+				DA88DB871F7E3AE10098C51F /* NSObject+CCObject.m */,
+				DA88DB881F7E3AE10098C51F /* NSObject+CCRuntime.h */,
+				DA88DB891F7E3AE10098C51F /* NSObject+CCRuntime.m */,
+				DA88DB8A1F7E3AE10098C51F /* NSObject+toString.h */,
+				DA88DB8B1F7E3AE10098C51F /* NSObject+toString.m */,
+				DA88DB8C1F7E3AE10098C51F /* NSString+CCString.h */,
+				DA88DB8D1F7E3AE10098C51F /* NSString+CCString.m */,
+				DA88DB8E1F7E3AE10098C51F /* NSString+Emoji.h */,
+				DA88DB8F1F7E3AE10098C51F /* NSString+Emoji.m */,
+				DA88DB901F7E3AE10098C51F /* NSString+Hashes.h */,
+				DA88DB911F7E3AE10098C51F /* NSString+Hashes.m */,
+				DA88DB921F7E3AE10098C51F /* NSTimer+CCTimer.h */,
+				DA88DB931F7E3AE10098C51F /* NSTimer+CCTimer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA88DB311F7E24C80098C51F /* CCAbbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA88DB3B1F7E24C80098C51F /* Build configuration list for PBXNativeTarget "CCAbbar" */;
+			buildPhases = (
+				DA88DB2E1F7E24C80098C51F /* Sources */,
+				DA88DB2F1F7E24C80098C51F /* Frameworks */,
+				DA88DB301F7E24C80098C51F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCAbbar;
+			productName = CCAbbar;
+			productReference = DA88DB321F7E24C80098C51F /* libCCAbbar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA88DB2A1F7E24C80098C51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lecochao;
+				TargetAttributes = {
+					DA88DB311F7E24C80098C51F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DA88DB2D1F7E24C80098C51F /* Build configuration list for PBXProject "CCAbbar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA88DB291F7E24C80098C51F;
+			productRefGroup = DA88DB331F7E24C80098C51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA88DB311F7E24C80098C51F /* CCAbbar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA88DB2E1F7E24C80098C51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA88DB971F7E3AE10098C51F /* UIView+CCView.m in Sources */,
+				DA88DB9E1F7E3AE10098C51F /* NSObject+toString.m in Sources */,
+				DA88DB9A1F7E3AE10098C51F /* NSDateFormatter+Category.m in Sources */,
+				DA88DB961F7E3AE10098C51F /* UIScrollView+EmptyDataSet.m in Sources */,
+				DA88DBA61F7E3C5E0098C51F /* CCPickerView.m in Sources */,
+				DA88DB9B1F7E3AE10098C51F /* NSFileManager+CCFilePath.m in Sources */,
+				DA88DB991F7E3AE10098C51F /* NSDate+Category.m in Sources */,
+				DA88DBA01F7E3AE10098C51F /* NSString+Emoji.m in Sources */,
+				DA88DB981F7E3AE10098C51F /* XCTableView.m in Sources */,
+				DA88DBA21F7E3AE10098C51F /* NSTimer+CCTimer.m in Sources */,
+				DA88DB9F1F7E3AE10098C51F /* NSString+CCString.m in Sources */,
+				DA88DB9D1F7E3AE10098C51F /* NSObject+CCRuntime.m in Sources */,
+				DA88DB9C1F7E3AE10098C51F /* NSObject+CCObject.m in Sources */,
+				DA88DBA11F7E3AE10098C51F /* NSString+Hashes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA88DB391F7E24C80098C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA88DB3A1F7E24C80098C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA88DB3C1F7E24C80098C51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNUKKVG8N;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA88DB3D1F7E24C80098C51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNUKKVG8N;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA88DB2D1F7E24C80098C51F /* Build configuration list for PBXProject "CCAbbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88DB391F7E24C80098C51F /* Debug */,
+				DA88DB3A1F7E24C80098C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA88DB3B1F7E24C80098C51F /* Build configuration list for PBXNativeTarget "CCAbbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA88DB3C1F7E24C80098C51F /* Debug */,
+				DA88DB3D1F7E24C80098C51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA88DB2A1F7E24C80098C51F /* Project object */;
+}
