@@ -1,7 +1,7 @@
     Pod::Spec.new do |s|  
       
     s.name         = "CCAbbar"
-    s.version      = "0.0.4"
+    s.version      = "1.0.0"
     s.summary      = "Make development easier."
     s.homepage     = "https://github.com/lecochao/CCAbbar"
     s.license      = "MIT"
