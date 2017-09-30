@@ -1,7 +1,7 @@
     Pod::Spec.new do |s|  
       
       s.name         = "CCAbbar"
-      s.version      = "0.0.1"
+      s.version      = "0.0.4"
       s.summary      = "Make development easier."  
       s.homepage     = "https://github.com/lecochao/CCAbbar"
       s.license      = "MIT"  
@@ -18,13 +18,13 @@
     end
       s.subspec 'CCKit' do |ss|
         ss.dependency 'CCAbbar/CCDefine'
-        ss.public_header_files = 'CCKit/CCAbbarKit.h'
+        ss.public_header_files = 'CCKit/*.h','CCKit/*/*.h'
         ss.source_files = 'CCKit/*.{h,m}','CCKit/*/*.{h,m}'
       end
 
     s.subspec 'Category' do |ss|
         #ss.dependency 'CCAbbar/CCDefine'
-        ss.public_header_files = 'Category/*.h'
+        ss.public_header_files = 'Category/*.h','Category/*/*.h'
         ss.source_files = 'Category/*.{h,m}','Category/*/*.{h,m}'
         ss.resource = 'Category/*.bundle'
     end
