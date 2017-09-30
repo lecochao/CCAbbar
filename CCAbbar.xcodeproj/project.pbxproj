@@ -68,6 +68,7 @@
 		DA8251341F7E482B0084F317 /* XCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTableView.h; sourceTree = "<group>"; };
 		DA8251351F7E482B0084F317 /* XCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTableView.m; sourceTree = "<group>"; };
 		DA8251451F7F39720084F317 /* CCDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDefine.h; sourceTree = "<group>"; };
+		DA8251471F7F551D0084F317 /* CCAbbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCAbbar.h; sourceTree = SOURCE_ROOT; };
 		DA88DB321F7E24C80098C51F /* libCCAbbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCAbbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -173,6 +174,7 @@
 				DA8251441F7F39720084F317 /* CCDefine */,
 				DA8251131F7E482A0084F317 /* Category */,
 				DA82512B1F7E482A0084F317 /* CCKit */,
+				DA8251471F7F551D0084F317 /* CCAbbar.h */,
 			);
 			path = CCAbbar;
 			sourceTree = "<group>";

@@ -1,16 +1,16 @@
     Pod::Spec.new do |s|  
       
-      s.name         = "CCAbbar"
-      s.version      = "0.0.4"
-      s.summary      = "Make development easier."  
-      s.homepage     = "https://github.com/lecochao/CCAbbar"
-      s.license      = "MIT"  
-      s.author       = { "lecochao" => "lecochao@qq.com" }
-      s.platform     = :ios, "9.0"
-      s.source       = { :git => "https://github.com/lecochao/CCAbbar.git", :tag => s.version }
-      s.source_files  = "CCAbbar/*.h"
-      s.framework  = "UIKit"  
-      s.requires_arc = true
+    s.name         = "CCAbbar"
+    s.version      = "0.0.4"
+    s.summary      = "Make development easier."
+    s.homepage     = "https://github.com/lecochao/CCAbbar"
+    s.license      = "MIT"
+    s.author       = { "lecochao" => "lecochao@qq.com" }
+    s.platform     = :ios, "9.0"
+    s.source       = { :git => "https://github.com/lecochao/CCAbbar.git", :tag => s.version }
+    #s.source_files  = "CCAbbar.h"
+    s.framework  = "UIKit"
+    s.requires_arc = true
 
     s.subspec 'CCDefine' do |ss|
         ss.public_header_files = 'CCDefine/CCDefine.h'
