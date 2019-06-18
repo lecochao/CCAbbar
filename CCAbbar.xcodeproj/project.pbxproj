@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA66A46922B8D62E00975428 /* CAPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA66A46822B8D62E00975428 /* CAPickerView.m */; };
 		DA8251361F7E482B0084F317 /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8251171F7E482A0084F317 /* NSDate+Category.m */; };
 		DA8251371F7E482B0084F317 /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8251191F7E482A0084F317 /* NSDateFormatter+Category.m */; };
 		DA8251381F7E482B0084F317 /* NSFileManager+CCFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = DA82511B1F7E482A0084F317 /* NSFileManager+CCFilePath.m */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA66A46722B8D62E00975428 /* CAPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPickerView.h; sourceTree = "<group>"; };
+		DA66A46822B8D62E00975428 /* CAPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPickerView.m; sourceTree = "<group>"; };
 		DA8251141F7E482A0084F317 /* CCAbbarCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAbbarCategory.h; sourceTree = "<group>"; };
 		DA8251161F7E482A0084F317 /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
 		DA8251171F7E482A0084F317 /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 		DA82512D1F7E482B0084F317 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DA66A46722B8D62E00975428 /* CAPickerView.h */,
+				DA66A46822B8D62E00975428 /* CAPickerView.m */,
 				DA82512E1F7E482B0084F317 /* CCPickerView.h */,
 				DA82512F1F7E482B0084F317 /* CCPickerView.m */,
 				DA8251301F7E482B0084F317 /* UIScrollView+EmptyDataSet.h */,
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8251431F7E482B0084F317 /* XCTableView.m in Sources */,
+				DA66A46922B8D62E00975428 /* CAPickerView.m in Sources */,
 				DA82513F1F7E482B0084F317 /* NSTimer+CCTimer.m in Sources */,
 				DA8251381F7E482B0084F317 /* NSFileManager+CCFilePath.m in Sources */,
 				DA82513C1F7E482B0084F317 /* NSString+CCString.m in Sources */,
