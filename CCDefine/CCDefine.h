@@ -69,6 +69,8 @@
 //系统版本号
 
 #define kSystemVersion [[UIDevice currentDevice] systemVersion]
+
+#define kBundleIdentifier [[NSBundle mainBundle] bundleIdentifier]
 //* 获取当前语言
 #define kCurrentLanguage ([[NSLocale preferredLanguages] objectAtIndex:0])
 //*

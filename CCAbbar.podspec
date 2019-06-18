@@ -22,11 +22,11 @@
         ss.source_files = 'CCKit/*.{h,m}','CCKit/*/*.{h,m}'
       end
 
-    s.subspec 'Category' do |ss|
+        s.subspec 'Category' do |ss|
         #ss.dependency 'CCAbbar/CCDefine'
         ss.public_header_files = 'Category/*.h','Category/*/*.h'
         ss.source_files = 'Category/*.{h,m}','Category/*/*.{h,m}'
         ss.resource = 'Category/*.bundle'
-    end
+        end
 
     end  
