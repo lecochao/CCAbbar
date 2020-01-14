@@ -5,7 +5,7 @@
 //  Created by lecochao on 2018/1/7.
 //  Copyright © 2018年 lecochao. All rights reserved.
 //
-
+#import <AFNetworking/AFNetworking.h>
 #import "FNetworking.h"
 const NSTimeInterval timeoutInterval = 60;
 @implementation FNetworking

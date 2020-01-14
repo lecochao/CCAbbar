@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "AFNetworking.h"
 #import "FBaseRequestModel.h"
 #import "FBaseResponseModel.h"
 
