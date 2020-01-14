@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
       
     s.name         = "CCAbbar"
-    s.version      = "1.0.3"
+    s.version      = "1.0.4"
     s.summary      = "Make development easier."
     s.homepage     = "https://github.com/lecochao/CCAbbar"
     s.license      = "MIT"
@@ -40,3 +40,4 @@ Pod::Spec.new do |s|
 		ss.dependency "JSONModel", "~> 1.8.0"
   		ss.dependency "AFNetworking", "~> 3.2.1"
     end
+end 

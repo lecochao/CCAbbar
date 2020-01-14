@@ -114,28 +114,28 @@
     return data;
 }
 
-+ (void)imageWithAsset:(QMUIAsset *)asset block:(void (^)(UIImage *image))completion
-{
-    [asset assetSize:^(long long size) {
-        NSLog(@"img size %lu",(unsigned long)size);
-        if (size>FConfig.imageSizeMaxInvoiceLength) {
-//            CGFloat ratio = (CGFloat)FConfig.imageSizeMaxInvoiceLength / size;
-//            CGSize sizea = CGSizeMake((NSUInteger)(asset.phAsset.pixelWidth * ratio),
-//            (NSUInteger)(asset.phAsset.pixelHeight * ratio));
-//            UIImage *image = [asset thumbnailWithSize:sizea];
-//            completion(image);
-            [FHUDManager showHUDWithHint:@"正在压缩"];
-            dispatch_async(dispatch_get_global_queue(0, 0), ^{
-                NSData *imgData = [asset.originImage compressMaxLength:FConfig.imageSizeMaxInvoiceLength];
-                UIImage *image = [UIImage imageWithData:imgData];
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    completion(image);
-                    [FHUDManager hideHud];
-                });
-            });
-        }else
-            completion(asset.originImage);
-            
-    }];
-}
+//+ (void)imageWithAsset:(QMUIAsset *)asset block:(void (^)(UIImage *image))completion
+//{
+//    [asset assetSize:^(long long size) {
+//        NSLog(@"img size %lu",(unsigned long)size);
+//        if (size>FConfig.imageSizeMaxInvoiceLength) {
+////            CGFloat ratio = (CGFloat)FConfig.imageSizeMaxInvoiceLength / size;
+////            CGSize sizea = CGSizeMake((NSUInteger)(asset.phAsset.pixelWidth * ratio),
+////            (NSUInteger)(asset.phAsset.pixelHeight * ratio));
+////            UIImage *image = [asset thumbnailWithSize:sizea];
+////            completion(image);
+//            [FHUDManager showHUDWithHint:@"正在压缩"];
+//            dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//                NSData *imgData = [asset.originImage compressMaxLength:FConfig.imageSizeMaxInvoiceLength];
+//                UIImage *image = [UIImage imageWithData:imgData];
+//                dispatch_async(dispatch_get_main_queue(), ^{
+//                    completion(image);
+//                    [FHUDManager hideHud];
+//                });
+//            });
+//        }else
+//            completion(asset.originImage);
+//
+//    }];
+//}
 @end

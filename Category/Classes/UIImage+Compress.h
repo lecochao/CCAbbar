@@ -47,7 +47,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 根据config支持最大值生成对应size的图片
 /// @param asset asset description
-+ (void)imageWithAsset:(QMUIAsset *)asset block:(void (^)(UIImage *image))completion;
+//+ (void)imageWithAsset:(QMUIAsset *)asset block:(void (^)(UIImage *image))completion;
 @end
 
 NS_ASSUME_NONNULL_END
