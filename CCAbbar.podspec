@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|  
       
     s.name         = "CCAbbar"
-    s.version      = "1.0.4"
+    s.version      = "1.0.6"
     s.summary      = "Make development easier."
     s.homepage     = "https://github.com/lecochao/CCAbbar"
     s.license      = "MIT"
@@ -34,10 +34,10 @@ Pod::Spec.new do |s|
 		ss.dependency "JSONModel", "~> 1.8.0"
   		ss.dependency "AFNetworking", "~> 3.2.1"
     end
-    s.subspec 'Networking' do |ss|
-		ss.public_header_files = 'Networking/*/*.h','Networking/*.h'
-		ss.source_files = 'Networking/*/*.{h,m}','Networking/*.{h,m}'
-		ss.dependency "JSONModel", "~> 1.8.0"
-  		ss.dependency "AFNetworking", "~> 3.2.1"
-    end
+    #s.subspec 'Networking' do |ss|
+	#	ss.public_header_files = 'Networking/*/*.h','Networking/*.h'
+	#	ss.source_files = 'Networking/*/*.{h,m}','Networking/*.{h,m}'
+	#	ss.dependency "JSONModel", "~> 1.8.0"
+  	#	ss.dependency "AFNetworking", "~> 3.2.1"
+    #end
 end 
