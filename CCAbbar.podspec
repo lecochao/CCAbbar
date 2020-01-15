@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
 		ss.source_files = 'RACNetworking/*/*.{h,m}','RACNetworking/*.{h,m}'
 		ss.dependency "JSONModel", "~> 1.8.0"
   		ss.dependency "AFNetworking", "~> 3.2.1"
+        ss.dependency "ReactiveObjC","~3.1.1"
     end
     #s.subspec 'Networking' do |ss|
 	#	ss.public_header_files = 'Networking/*/*.h','Networking/*.h'
