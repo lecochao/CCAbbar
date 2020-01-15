@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FNetworkingManager : NSObject<ConfigManager>
-@property (strong, nonatomic) CWStatusBarNotification *notification;//默认背景危险红
+//@property (strong, nonatomic) CWStatusBarNotification *notification;//默认背景危险红
 
 +(instancetype) sharedInstance;
 

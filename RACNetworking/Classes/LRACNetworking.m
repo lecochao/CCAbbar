@@ -8,7 +8,7 @@
 
 #import "LRACNetworking.h"
 #import "AFNetworkActivityIndicatorManager.h"
-#import "CWStatusBarNotification.h"
+//#import "CWStatusBarNotification.h"
 
 
 @implementation LSignalValue
@@ -34,7 +34,7 @@
 @interface LRACNetworking()
 //网络管理工具
 @property (nonatomic,strong) AFHTTPSessionManager * manager;
-@property (strong, nonatomic) CWStatusBarNotification *notification;
+//@property (strong, nonatomic) CWStatusBarNotification *notification;
 @end
 @implementation LRACNetworking
 
@@ -65,23 +65,23 @@ static LRACNetworking * _instance = nil;
     return _instance;
 }
 
--(CWStatusBarNotification *)notification
-{
-    if (!_notification) {
-        _notification = [CWStatusBarNotification new];
-        _notification.notificationStyle = CWNotificationStyleNavigationBarNotification;
-        _notification.notificationAnimationInStyle = CWNotificationAnimationStyleTop;
-        _notification.notificationAnimationOutStyle = CWNotificationAnimationStyleTop;
-        _notification.multiline = YES;//多行显示
-        _notification.notificationLabelBackgroundColor = kColorWithHex(0xFF7F13);
-        _notification.notificationLabelTextColor = [UIColor whiteColor];
-        _notification.notificationLabelFont = [UIFont systemFontOfSize:15];
-        _notification.notificationAnimationDuration = 1;
-        _notification.preferredStatusBarStyle = UIStatusBarStyleLightContent;
-        
-    }
-    return _notification;
-}
+//-(CWStatusBarNotification *)notification
+//{
+//    if (!_notification) {
+//        _notification = [CWStatusBarNotification new];
+//        _notification.notificationStyle = CWNotificationStyleNavigationBarNotification;
+//        _notification.notificationAnimationInStyle = CWNotificationAnimationStyleTop;
+//        _notification.notificationAnimationOutStyle = CWNotificationAnimationStyleTop;
+//        _notification.multiline = YES;//多行显示
+//        _notification.notificationLabelBackgroundColor = kColorWithHex(0xFF7F13);
+//        _notification.notificationLabelTextColor = [UIColor whiteColor];
+//        _notification.notificationLabelFont = [UIFont systemFontOfSize:15];
+//        _notification.notificationAnimationDuration = 1;
+//        _notification.preferredStatusBarStyle = UIStatusBarStyleLightContent;
+//        
+//    }
+//    return _notification;
+//}
 
 + (void)releaseManager
 {
